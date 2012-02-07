@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "origin"]
+	url = git@ghostandthemachines.com:sinatra-haml-bootstrap-hero.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
+[remote "all"]
+  url = git@github.com:ghostandthemachine/sinatra-haml-bootstrap-hero.git
+  url = git@ghostandthemachines.com:sinatra-haml-bootstrap-hero.git
